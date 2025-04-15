@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Grafieken</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <main class="dashboard">
+      <section class="tile" id="clock">--:--</section>
+      <section class="tile"><canvas id="consoleChart"></canvas></section>
+      <section class="tile"><canvas id="pokemonChart"></canvas></section>
+      <section class="tile empty"></section>
+      <section class="tile empty"></section>
+    </main>
+    <script src="../js/main.js"></script>
+  </body>
+  </html>

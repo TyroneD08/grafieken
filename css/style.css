@@ -1,0 +1,34 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #efefef;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .tile {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+  }
+  
+  #clock {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
